@@ -20,7 +20,7 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
+			NotificationTable.Notify("<b><font color=\"rgb(184,83,255)\">         [ xDev ]</font></b> ", "Thank you for using xDeveloper, consider donating! <b><font color=\"rgb(184,83,255)\">paypal.me/BOOMOZ</font></b>", "rbxassetid://8628265504", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -35,7 +35,7 @@ local function CheckAd()
 				}
 			})
 			wait(.3)
-			NotificationTable.Notify("{ Iris }", "To remove this message add <b><font color=\"rgb(184,83,255)\">getgenv()[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
+			NotificationTable.Notify("<b><font color=\"rgb(184,83,255)\">         [ xDev ]</font></b> ", "To remove this message add <b><font color=\"rgb(184,83,255)\">getgenv()[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -53,7 +53,7 @@ local function CheckAd()
 	else
 		if not _G["IrisAd"] then
 			_G["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
+			NotificationTable.Notify("<b><font color=\"rgb(184,83,255)\">         [ xDev ]</font></b> ", "Thank you for using xDeveloper, consider donating! <b><font color=\"rgb(184,83,255)\">paypal.me/BOOMOZ</font></b>", "rbxassetid://7258709020", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -68,7 +68,7 @@ local function CheckAd()
 				}
 			})
 			wait(.3)
-			NotificationTable.Notify("{ Iris }", "To remove this message add <b><font color=\"rgb(184,83,255)\">_G[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
+			NotificationTable.Notify("<b><font color=\"rgb(184,83,255)\">         [ xDev ]</font></b> ", "To remove this message add <b><font color=\"rgb(184,83,255)\">_G[\"IrisAd\"] = true</font></b> to your script!", "rbxassetid://7258714296", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
