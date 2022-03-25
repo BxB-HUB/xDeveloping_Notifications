@@ -20,7 +20,7 @@ P I N G   C O U N T E R   >   F P S   C O U N T E R
 	textlab.TextStrokeTransparency = 0
 	textlab.TextStrokeColor3 = Color3.new(0.24, 0.24, 0.24)
 	textlab.Font = Enum.Font.SourceSans
-	textlab.TextSize = 25
+	textlab.TextSize = 22
 	textlab.Text = ""
 	textlab.BackgroundColor3 = Color3.new(0, 0, 0)
 	textlab.Position = UDim2.new(0.89, 0, 0.530, 0)
@@ -40,7 +40,7 @@ P I N G   C O U N T E R   >   F P S   C O U N T E R
 	FPS[1] = fr
 	local fps = (tick() - sec >= 1 and #FPS) or (#FPS / (tick() - sec))
 	fps = math.floor(fps)
-	textlab.Text = ""..fps.."  ◈  FPS \n━━━━━━"
+	textlab.Text = ""..fps.."  ◈  FPS"
 
 	-- [ Text Color ] --
 	if fps < 30 then
